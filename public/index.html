@@ -18,62 +18,69 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
-    <main class="flex w-full mt-40">
-        <section class="bg-blue-700 rounded-2xl justify-items-center p-5 w-2/5">
-            <div class="">
-                <h2 class="">Informar contato</h2>
-                <p>preencha o formulário e nossa equipe entrará em contato com você em 24 horas</p>
+<body class="sm:overflow-hidden">
+    <header class="w-full">
+        <div class="flex flex-col justify-center items-center px-4">
+            <h1 class="mb-4 text-black text-3xl font-bold">Contate-Nos</h1>
+            <p class="mb-10 text-gray-400 text-lg">Alguma pergunta ou observação? apenas você nos mandar uma mensagem!</p>
+        </div>
+    </header>
 
-                <ul class="mt-10 ">
+    <main class="sm:flex bg-gray-100 py-3 px-3 max-w-full">
+        <section class="  bg-purple-700 rounded-2xl p-10 sm:w-2/5">
+            <div class="">
+                <h2 class=" text-2xl text-white mb-4">Informar contato</h2>
+                <p class="text-purple-300 text-justify">preencha o formulário e nossa equipe entrará em contato com você em 24 horas</p>
+
+                <ul class="mt-10 text-white">
                     <li class="mt-12">
-                        <a href="https://api.whatsapp.com/send?phone=+5592992391957" class=""><i class="fas fa-phone-alt"></i> Entre em contato pelo <strong>whatsapp</strong></a>
+                        <a href="https://api.whatsapp.com/send?phone=+5592992391957" target="_blank" class=""><i class="fas fa-phone-alt"></i> Entre em contato pelo <strong>whatsapp</strong></a>
                     </li>
                     <li class="mt-8">
-                        <a href="mailto:tbarreto585@gmail.com"><i class="far fa-envelope"></i> Mande um <strong>e-mail</strong></a>
+                        <a href="mailto:tbarreto585@gmail.com" target="_blank"><i class="far fa-envelope"></i> Mande um <strong>e-mail</strong></a>
                     </li>
                     <li class="mt-8">
-                        <a href="https://www.google.com/maps/place/Ateli%C3%AA+Da+Marg%C3%B4/@-3.0566906,-60.043944,21z/data=!4m13!1m7!3m6!1s0x926c10915d406f83:0x75e93f9842d9ae5b!2sR.+M%E1%B5%83+Azevedo+Ramos+-+Reden%C3%A7%C3%A3o,+Manaus+-+AM!3b1!8m2!3d-3.056653!4d-60.0426082!3m4!1s0x926c1093e79507ed:0x493347c518183081!8m2!3d-3.05665!4d-60.043918"><i class="fas fa-map-marker-alt"></i> Rua Antúrio Cristalino, Casa 1696</a>
+                        <a href="https://www.google.com/maps/place/Ateli%C3%AA+Da+Marg%C3%B4/@-3.0566906,-60.043944,21z/data=!4m13!1m7!3m6!1s0x926c10915d406f83:0x75e93f9842d9ae5b!2sR.+M%E1%B5%83+Azevedo+Ramos+-+Reden%C3%A7%C3%A3o,+Manaus+-+AM!3b1!8m2!3d-3.056653!4d-60.0426082!3m4!1s0x926c1093e79507ed:0x493347c518183081!8m2!3d-3.05665!4d-60.043918" target="_blank"><i class="fas fa-map-marker-alt"></i> Rua Antúrio Cristalino, Casa 1696</a>
                     </li>
                 </ul>
 
-                <div class="socials mt-32 mb-8 flex ">
-                    <a class="mr-8 " href="https://web.facebook.com/profile.php?id=100028723125858"><i class="fab fa-facebook-square"></i></a>
-                    <a class="mr-8" href="https://www.instagram.com/dev_thiago.rx/"><i class="fab fa-instagram "></i></a>
-                    <a class="mr-8" href="https://twitter.com/TBarreto_RX"><i class="fab fa-twitter"></i></a>
-                    <a class="mr-8" href="https://www.linkedin.com/in/thiago-barreto-rodrigues/"><i class="fab fa-linkedin"></i></a>
+                <div class="socials mt-24 flex text-white text-2xl">
+                    <a class="mr-8" href="https://web.facebook.com/profile.php?id=100028723125858" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a class="mr-8" href="https://www.instagram.com/dev_thiago.rx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="mr-8" href="https://twitter.com/TBarreto_RX" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="mr-8" href="https://www.linkedin.com/in/thiago-barreto-rodrigues/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </section>
 
-        <form class="justify-center pt-5 w-3/5" action="">
-            <div class="flex justify-around mb-10">
+        <form class="sm:flex flex-col pt-5 w-3/5" action="">
+            <div class="sm:flex justify-around sm:-ml-20">
                 <label for="name">
                     First name: <br>
-                    <input class="mr-5 border-gray-200 border-solid border-t-0 border-b-2 placeholder-blue-500 w-full" type="text" name="name" id="name" placeholder="Seu primeiro nome">
+                    <input class="mr-5 border-gray-200 border-solid border-t-0 border-b-2 placeholder-gray-500 w-full bg-transparent" type="text" name="name" id="name" placeholder="Seu primeiro nome">
                 </label>
                 <label for="name3">
                     Last name: <br>
-                    <input class="border-gray-200 border-solid border-t-0 border-b-2 placeholder-blue-500 w-full" type="text" name="name3" id="name3" placeholder="Seu ultimo nome">
+                    <input class="border-gray-200 border-solid border-t-0 border-b-2 placeholder-gray-500 w-full bg-transparent" type="text" name="name3" id="name3" placeholder="Seu ultimo nome">
                 </label>
             </div>
 
-            <div class="flex justify-around mt-20">
+            <div class="sm:flex justify-around mt-8 sm:-ml-20">
                 <label for="email">
                     Mail: <br>
-                    <input class="mr-5 border-gray-200 border-solid border-t-0 border-b-2 placeholder-blue-500 w-full" type="email" name="email" id="email" placeholder="Seu melhor e-mail">
+                    <input class="mr-5 border-gray-200 border-solid border-t-0 border-b-2 placeholder-gray-500 w-full bg-transparent" type="email" name="email" id="email" placeholder="Seu melhor e-mail">
                 </label>
                 <label for="phone">
                     Phone: <br>
-                    <input class="border-gray-200 border-solid border-t-0 border-b-2 placeholder-blue-500 w-full" type="number" name="phone" id="phone" placeholder="Seu contato">
+                    <input class="border-gray-200 border-solid border-t-0 border-b-2 placeholder-gray-500 w-full bg-transparent" type="number" name="phone" id="phone" placeholder="Seu contato">
                 </label>
             </div>
 
             <div class="mt-8">
                 <h2 class="mx-12 font-mono">De que profissional você precisa?</h2>
 
-                <div class="options flex justify-around mt-5">
-                    <label class="" for="design">
+                <div class="options sm:flex justify-around mt-5">
+                    <label  for="design">
                         <input type="radio" name="options" id="design" value="Web Design">
                         Web Design
                     </label>
@@ -94,15 +101,15 @@
 
             <div class="mt-8">
                 <label>
-                    <div class="flex-row ml-12">
+                    <div class="sm:flex flex-row ml-12">
                         <h2>Mensagens</h2>
-                        <textarea class="resize-none border-gray-200 border-solid border-t-0 border-b-2" name="text" id="text" cols="90" rows="3" placeholder="Digite sua mensagem..."></textarea>
+                        <textarea class="resize-none border-gray-200 border-solid border-t-0 border-b-2 w-11/12 bg-transparent " name="text" id="text" cols="90" rows="3" placeholder="Digite sua mensagem..."></textarea>
                     </div>
                 </label>
             </div>
 
-            <div class="flex">
-                <button class="bg-gray-400 w-32 p-2 rounded-lg">Enviar</button>
+            <div class=" sm:w-full sm:mt-16">
+                <button class="bg-purple-700 sm:w-1/4 sm:py-3 rounded-lg float-right sm:text-xl">Enviar</button>
             </div>
         </form>
     </main>
