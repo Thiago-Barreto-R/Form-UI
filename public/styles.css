@@ -45,11 +45,13 @@
   }
   main form #names {
     padding: 0 2rem;
+    margin-left: 1.3rem;
   }
   main form #names label #name {
     margin-bottom: 2rem;
     padding: .7rem;
     outline: none;
+    margin-right: 1.2rem;
   }
   main form #names label #name:hover {
     border-bottom: 2px solid gray;
@@ -57,17 +59,20 @@
   main form #names label #name2 {
     padding: .7rem;
     outline: none;
+    margin-left: 1rem;
   }
   main form #names label #name2:hover {
     border-bottom: 2px solid gray;
   }
   main form #contacts2 {
     padding: 0 2rem;
+    margin-left: 1.3rem;
   }
   main form #contacts2 label #email {
     margin-bottom: 2rem;
     padding: .7rem;
     outline: none;
+    margin-right: 1.2rem;
   }
   main form #contacts2 label #email:hover {
     border-bottom: 2px solid gray;
@@ -75,6 +80,7 @@
   main form #contacts2 label #phone {
     padding: .7rem;
     outline: none;
+    margin-left: 1.3rem;
   }
   main form #contacts2 label #phone:hover {
     border-bottom: 2px solid gray;
@@ -158,5 +164,9 @@
     -webkit-box-shadow: none;
             box-shadow: none;
   }
+}
+
+main form .content-btn {
+  margin-top: 1.2rem;
 }
 /*# sourceMappingURL=styles.css.map */
