@@ -1,0 +1,201 @@
+@media (max-width: 1085px) {
+    header {
+
+        #container {
+            text-align: center;
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+        #contacts1 {
+            width: 100%;
+
+            .menu {
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                }
+
+                ul {
+
+                    li {
+
+                        a {
+                            font-size: 1rem;
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .socials {
+                 
+                a {
+                    font-size: 1.6rem;
+                    padding: 0 .6rem;
+                    
+                    &:hover {
+                        background-color: red;
+                        border-radius: 50%;
+                        transition: background-color .3s ease;
+                    }
+                }
+            }
+        }
+
+        form {
+            height: 100vh;
+
+            #names {
+                padding: 0 2rem;
+    
+                label {
+    
+                    #name {
+                        margin-bottom: 2rem;
+                        padding: .7rem;
+                        outline: none;
+    
+                        &:hover {
+                            border-bottom: 2px solid gray;
+                        }
+                    }
+    
+                    #name2 {
+                        padding: .7rem;
+                        outline: none;
+    
+                        &:hover {
+                            border-bottom: 2px solid gray;
+                        }
+                    }
+                }
+            }
+
+            #contacts2 {
+                padding: 0 2rem;
+
+                label {
+
+                    #email {
+                        margin-bottom: 2rem;
+                        padding: .7rem;
+                        outline: none;
+    
+                        &:hover {
+                            border-bottom: 2px solid gray;
+                        }
+                    }
+
+                    #phone {
+                        padding: .7rem;
+                        outline: none;
+    
+                        &:hover {
+                            border-bottom: 2px solid gray;
+                        }
+                    }
+                }
+            }
+
+            div {
+                
+                #professional {
+
+                    h2 {
+                        font-size: 1.2rem;
+                        margin-bottom: 2rem;
+                    }
+
+                    #options {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                        text-align: justify;
+
+                        .designer {
+                            margin-left: -3.8rem;
+                        }
+
+                        .development {
+                            margin-left: -1rem;
+                        }
+
+                        .logo-design {
+                            margin-left: -3.5rem;
+                        }
+
+                        .other {
+                            margin-left: -6.6rem;
+                        }
+                    }
+                }
+            }
+
+            #mensagens {
+                
+                h2 {
+                    margin: 0 0 1rem -1rem;
+                }
+
+                #text {
+                    width: 160%;
+                    height: 40px;
+                    margin-left: -1rem;
+                    outline: 0;
+
+                    &:hover {
+                        border-bottom: 2px solid gray;
+                    }
+                }
+            }
+        }
+
+        div {
+
+            #enviar {
+                padding: .7rem 2rem;
+                margin: 2rem 0 0 0;
+                color: white;
+                outline: 0;
+                transition: box-shadow .3s ease-in-out;
+                box-shadow: 2px 5px 3px  rgba(0,0,0,0.15);
+
+                &:active {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1444px) {
+    main {
+
+        div {
+            
+            #enviar {
+                padding: .7rem 2rem;
+                margin: 2rem 0 0 0;
+                color: white;
+                outline: 0;
+                transition: box-shadow .3s ease-in-out;
+                box-shadow: 2px 5px 3px  rgba(0,0,0,0.15);
+
+                &:active {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

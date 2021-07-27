@@ -1,1 +1,162 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@media (max-width: 1085px) {
+  header #container {
+    text-align: center;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #contacts1 {
+    width: 100%;
+  }
+  main #contacts1 .menu h2 {
+    font-size: 2rem;
+  }
+  main #contacts1 .menu p {
+    font-size: 1.3rem;
+  }
+  main #contacts1 .menu ul li a {
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  main #contacts1 .socials a {
+    font-size: 1.6rem;
+    padding: 0 .6rem;
+  }
+  main #contacts1 .socials a:hover {
+    background-color: red;
+    border-radius: 50%;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+  }
+  main form {
+    height: 100vh;
+  }
+  main form #names {
+    padding: 0 2rem;
+  }
+  main form #names label #name {
+    margin-bottom: 2rem;
+    padding: .7rem;
+    outline: none;
+  }
+  main form #names label #name:hover {
+    border-bottom: 2px solid gray;
+  }
+  main form #names label #name2 {
+    padding: .7rem;
+    outline: none;
+  }
+  main form #names label #name2:hover {
+    border-bottom: 2px solid gray;
+  }
+  main form #contacts2 {
+    padding: 0 2rem;
+  }
+  main form #contacts2 label #email {
+    margin-bottom: 2rem;
+    padding: .7rem;
+    outline: none;
+  }
+  main form #contacts2 label #email:hover {
+    border-bottom: 2px solid gray;
+  }
+  main form #contacts2 label #phone {
+    padding: .7rem;
+    outline: none;
+  }
+  main form #contacts2 label #phone:hover {
+    border-bottom: 2px solid gray;
+  }
+  main form div #professional h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  main form div #professional #options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: justify;
+  }
+  main form div #professional #options .designer {
+    margin-left: -3.8rem;
+  }
+  main form div #professional #options .development {
+    margin-left: -1rem;
+  }
+  main form div #professional #options .logo-design {
+    margin-left: -3.5rem;
+  }
+  main form div #professional #options .other {
+    margin-left: -6.6rem;
+  }
+  main form #mensagens h2 {
+    margin: 0 0 1rem -1rem;
+  }
+  main form #mensagens #text {
+    width: 160%;
+    height: 40px;
+    margin-left: -1rem;
+    outline: 0;
+  }
+  main form #mensagens #text:hover {
+    border-bottom: 2px solid gray;
+  }
+  main div #enviar {
+    padding: .7rem 2rem;
+    margin: 2rem 0 0 0;
+    color: white;
+    outline: 0;
+    -webkit-transition: -webkit-box-shadow .3s ease-in-out;
+    transition: -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    -webkit-box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+  }
+  main div #enviar:active {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media (max-width: 1444px) {
+  main div #enviar {
+    padding: .7rem 2rem;
+    margin: 2rem 0 0 0;
+    color: white;
+    outline: 0;
+    -webkit-transition: -webkit-box-shadow .3s ease-in-out;
+    transition: -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    -webkit-box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+  }
+  main div #enviar:active {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
